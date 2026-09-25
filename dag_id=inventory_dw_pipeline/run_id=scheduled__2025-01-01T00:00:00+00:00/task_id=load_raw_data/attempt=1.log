@@ -1,0 +1,15 @@
+{"timestamp":"2026-04-24T23:03:00.645976Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-24T23:03:00.647117Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lab3_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-24T23:03:00.764039Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:00.764583Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:00.764973Z","level":"info","event":"Current task name:load_raw_data","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:00.765065Z","level":"info","event":"Dag name:inventory_dw_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:01.055290Z","level":"info","event":"Loaded sheet: Products, rows=118","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:01.103668Z","level":"info","event":"Loaded sheet: Inventory_Beginning, rows=118","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:01.195261Z","level":"info","event":"Loaded sheet: Inventory_UnitsIn, rows=1319","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:01.439978Z","level":"info","event":"Loaded sheet: Inventory_UnitsOut, rows=8029","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:03.796413Z","level":"info","event":"Loaded sheet: Inventory_Calendar, rows=2191","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:03.878413Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-24T23:03:03.929725Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:03.930703Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:03.930843Z","level":"info","event":"Task operator:<Task(PythonOperator): load_raw_data>","logger":"task.stdout"}

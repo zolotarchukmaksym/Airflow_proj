@@ -1,0 +1,11 @@
+{"timestamp":"2026-04-25T10:08:00.407754Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-25T10:08:00.414246Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/inventory_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-25T10:08:00.758429Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-25T10:08:00.760490Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-25T10:08:00.761319Z","level":"info","event":"Current task name:load_data_to_postgres","logger":"task.stdout"}
+{"timestamp":"2026-04-25T10:08:00.761597Z","level":"info","event":"Dag name:inventory_dw_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-25T10:08:02.117051Z","level":"info","event":"Дані успішно завантажені у сховище даних PostgreSQL!","logger":"task.stdout"}
+{"timestamp":"2026-04-25T10:08:02.126408Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-25T10:08:02.411843Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-25T10:08:02.413095Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-25T10:08:02.413774Z","level":"info","event":"Task operator:<Task(PythonOperator): load_data_to_postgres>","logger":"task.stdout"}

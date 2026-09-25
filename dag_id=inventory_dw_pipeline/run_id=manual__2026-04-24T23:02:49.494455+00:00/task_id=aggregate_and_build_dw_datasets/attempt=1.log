@@ -1,0 +1,11 @@
+{"timestamp":"2026-04-24T23:03:05.462604Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-24T23:03:05.465277Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/lab3_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-24T23:03:05.587276Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:05.587650Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:05.587939Z","level":"info","event":"Current task name:aggregate_and_build_dw_datasets","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:05.588204Z","level":"info","event":"Dag name:inventory_dw_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:05.788651Z","level":"info","event":"Aggregated fact_inventory: 8998 rows","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:05.789766Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-24T23:03:05.828242Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:05.828480Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-24T23:03:05.828686Z","level":"info","event":"Task operator:<Task(PythonOperator): aggregate_and_build_dw_datasets>","logger":"task.stdout"}

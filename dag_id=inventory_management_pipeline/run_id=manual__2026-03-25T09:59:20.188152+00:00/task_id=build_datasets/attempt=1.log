@@ -1,0 +1,17 @@
+{"timestamp":"2026-03-25T09:59:26.011539Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-25T09:59:26.012027Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/inventory_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-25T09:59:26.015938Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/inventory_pipeline.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-03-25T09:59:26.029323Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.029412Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.029478Z","level":"info","event":"Current task name:build_datasets","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.029520Z","level":"info","event":"Dag name:inventory_management_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.050138Z","level":"info","event":"Created dim_products.csv: 118 rows","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.057203Z","level":"info","event":"Created dim_calendar.csv: 2191 rows","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.059083Z","level":"info","event":"Created fact_inventory_beginning.csv: 118 rows","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.063039Z","level":"info","event":"Created fact_inventory_in.csv: 1319 rows","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.080915Z","level":"info","event":"Created fact_inventory_out.csv: 8029 rows","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.107953Z","level":"info","event":"Created fact_inventory_movements.csv: 9348 rows","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.108203Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-25T09:59:26.115397Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.115469Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-25T09:59:26.115553Z","level":"info","event":"Task operator:<Task(PythonOperator): build_datasets>","logger":"task.stdout"}
